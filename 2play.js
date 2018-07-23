@@ -48,7 +48,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 
-
+const { Client , Util } = require('discord.js');
 const ytdl = require("ytdl-core");
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
